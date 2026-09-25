@@ -1,8 +1,20 @@
+# Logs
+*.log
+npm-debug.log*
 
+# Dependencies
+node_modules/
 
-# SOLO initial credential and cache exclusions
+# Build output
+dist/
+*.tsbuildinfo
+
+# Local / OS files
+.DS_Store
 .env
 .env.*
+
+# SOLO initial credential and cache exclusions
 !.env.example
 !.env.sample
 !.env.template
@@ -17,9 +29,7 @@ id_ed25519
 *.key
 *.p12
 *.pfx
-node_modules/
 .venv/
 venv/
 __pycache__/
 .pytest_cache/
-.DS_Store
